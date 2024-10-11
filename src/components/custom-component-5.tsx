@@ -5,10 +5,10 @@ export function CustomComponent5() {
     <header className="container mx-auto p-6 flex justify-between items-center">
       <div className="text-3xl font-bold text-[#0088cc]">GramStep</div>
       <nav className="hidden md:flex space-x-4">
-        <a href="#features" className="text-gray-600 hover:text-[#0088cc]">
+        <a href="#features" className="text-gray-600 hover:text-primary" aria-label="機能">
           機能
         </a>
-        <a href="#use-cases" className="text-gray-600 hover:text-[#0088cc]">
+        <a href="#use-cases" className="text-gray-600 hover:text-primary" aria-label="使用事例">
           使用事例
         </a>
         <a href="#pricing" className="text-gray-600 hover:text-[#0088cc]">
